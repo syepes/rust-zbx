@@ -1,8 +1,9 @@
 [package]
 name = "zbx"
-version = "0.1.0"
+version = "0.2.0"
 description = "Crate for creating Zabbix loadable modules"
-authors = ["Marin Atanasov Nikolov <dnaeon@gmail.com>"]
+authors = ["Marin Atanasov Nikolov <dnaeon@gmail.com>", "Sebastian YEPES F. <syepes@gmail.com>"]
 
 [dependencies]
+clippy = "*"
 libc = "*"

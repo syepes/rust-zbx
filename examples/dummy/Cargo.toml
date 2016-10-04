@@ -1,17 +1,14 @@
 [package]
 name = "dummy"
-version = "0.1.0"
+version = "0.2.0"
 description = "Example Zabbix loadable module written in Rust"
-authors = ["Marin Atanasov Nikolov <dnaeon@gmail.com>"]
+authors = ["Marin Atanasov Nikolov <dnaeon@gmail.com>", "Sebastian YEPES F. <syepes@gmail.com>"]
 
 [lib]
 name = "rust_dummy"
 crate-type = ["dylib"]
 
-[dependencies.rand]
-version = "*"
-
-[dependencies.zbx]
-git = "https://github.com/dnaeon/rust-zbx.git"
-version = "*"
-
+[dependencies]
+clippy = "*"
+zbx = {path = 'C:\Users\syepesfernandez\Documents\00-Data\03-Personal\00-Devs\Zabbix\rust-zbx.syepes', version="*"}
+rand = "*"
