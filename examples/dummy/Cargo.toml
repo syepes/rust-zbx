@@ -10,5 +10,5 @@ crate-type = ["dylib"]
 
 [dependencies]
 clippy = "*"
-zbx = {path = 'C:\Users\syepesfernandez\Documents\00-Data\03-Personal\00-Devs\Zabbix\rust-zbx.syepes', version="*"}
+zbx = {git = "https://github.com/syepes/rust-zbx.git", version="*"}
 rand = "*"
